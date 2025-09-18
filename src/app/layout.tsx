@@ -26,7 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}>
-        {children}
+        <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'highlight' }}>
+          {children}
+        </SiteThemeProvider>
       </body>
     </html>
   );
