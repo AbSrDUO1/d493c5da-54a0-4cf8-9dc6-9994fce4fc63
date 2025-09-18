@@ -52,9 +52,9 @@ export default function Home() {
           title="Tokenomics Overview"
           description="Understand the financials behind PulseFlow"
           kpiItems={[
-            { value: "100M", description: "Total Supply", icon: Coin },
-            { value: "55M", description: "Circulating Supply", icon: Wallet },
-            { value: "45M", description: "Reserved for Development", icon: Graph }
+            { value: "100M", description: "Total Supply", icon: { Coin: 'Coin' } },
+            { value: "55M", description: "Circulating Supply", icon: { Wallet: 'Wallet' } },
+            { value: "45M", description: "Reserved for Development", icon: { Graph: 'Graph' } }
           ]}
         />
       </div>
